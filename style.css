@@ -11,9 +11,7 @@ body {
 
 }
 
-.container{
 
-}
 
 nav{
     height: 50px;
@@ -41,6 +39,7 @@ nav a:hover{
 
 .leftside img{
     height: 50px;
+    mix-blend-mode: multiply;
     
    
 }
@@ -128,7 +127,7 @@ nav a:hover{
 .nav2 img{
     font-size: 40px;
     height: 40px;
-    
+    mix-blend-mode: darken;
 }
 
 .nav2 a{
