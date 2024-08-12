@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+
+}
+
+.container{
+
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+
+}
+nav a:hover{
+    border-bottom: 2px solid black;
+    
+}
+
+.leftside{
+    display: flex;
+    align-items: center;
+   
+}
+
+.leftside img{
+    height: 50px;
+    
+   
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+.rightside i{
+    font-size: 23px;
+}
+.imagecontain{
+    width: 100%;
+    height: 570px;
+    background-image: url('https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.imagecontain-inner{
+    height: auto;
+    padding: 95Px;
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+
+.btn1{
+    width: 65px;
+    padding: 2%;
+    background-color: #FFB900;
+    float: left;
+    border: none;
+
+}
+.btn2{
+    width: 90px;
+    height: 40px;
+    padding: 2%;
+    background-color: #0067B8;
+    font-weight: bold;
+    color: white;
+    float: left;
+    border: none;
+}
+
+.head2{
+    text-align: center;
+    padding: 20%;
+    color: blue;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+    background-color: #d9dedf;
+    padding: 20px;
+}
+
+
+
+.nav2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav2 img{
+    font-size: 40px;
+    height: 40px;
+    
+}
+
+.nav2 a{
+    font-weight: bold;
+    font-size: large;
+    color: #0067B8;
+    text-decoration: none;
+    line-height: 40px;
+    color: black;
+
+
+}
+.nav2 a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.card{
+    width: 24%;
+    height: 550px;
+    background-color: #FFFFFF;
+    margin: 10px 50px;
+    box-shadow: 2px 2px 9px black;
+  
+}
+.card-content{
+    padding: 3%;
+}
+
+.card-image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.btn3{
+    width: 150px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 2%;
+    background-color: #0067B8;
+    font-weight: bold;
+    color: white;
+    float: left;
+    border: none;
+}
+
+
+.imagecontain2{
+    height: 500px;
+    width: 90%;
+    margin:40px 90px;
+    background-image: url('https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 0 150px 150px 0;
+    box-shadow:  0 0 10px black;
+}
+
+
+.connect{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head3{
+    margin: 10px 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.footer{
+    border-width: 100%;
+    height: 500px;
+    background-color: #f0dfb2;
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 2px solid black;
+    margin: 30px 0 0 0;
+    
+}
+
+.footer span{
+    font-weight: 200;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.footer p{
+    padding: 0 8%;  
+    line-height: 280%;
+    width: 150%;
+}
+.footer p:hover{
+    border-bottom: 2px solid black;
+    background-color: #edebe6;
+    width: 150%;
+    border-radius: 10px 10px 0 0;
+}
